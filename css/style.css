@@ -72,7 +72,7 @@ a{
     width: 25%;
 }
 
-.blue-section{
+.header-introduction{
         padding: 100px;
 }
 
@@ -127,16 +127,10 @@ footer{
 
 } */
 
-#prov-text-c{
-    text-align: center;
-}
-
-#prov-text-r{
-    text-align: right;
-}
 
 
-.debug .blue-section .col-100{
+
+.debug .header-introduction .col-100{
     background-color: magenta;
     min-height: 300px;
     max-width: 800px;
