@@ -1,0 +1,157 @@
+/* General Rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu{
+    list-style: none;
+}
+
+/* Layout */
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+    
+}
+
+.main-header{
+    background-color: aqua;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.blue-section{
+    background-color: blue;
+    padding: 20px;
+
+}
+
+.col-100{
+    width: 100%;
+    
+}
+
+.white-section{
+    padding: 20px;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.grey-section{
+    padding: 20px;
+    background-color: grey;
+}
+
+footer{
+    background-color: black;
+}
+
+.col-2{
+    width: calc(100% / 3);
+
+}
+
+.col-1{
+    width: calc(100% / 6);
+
+}
+
+.line{
+    border: 2px solid grey;
+    margin: 20px 0;
+
+}
+
+
+/* Debug */
+.debug .column{
+    border: 2px dashed black;
+}
+
+.debug .main-header .column{
+    padding: 20px;
+    background-color: yellow;
+   
+
+}
+
+#prov-text-c{
+    text-align: center;
+}
+
+#prov-text-r{
+    text-align: right;
+}
+
+
+.debug .blue-section .col-100{
+    background-color: magenta;
+    min-height: 300px;
+    max-width: 800px;
+
+}
+
+.debug .col-40{
+    background-color: pink;
+    min-height: 300px;
+}
+
+.debug .main-content .col-60{
+    background-color: aqua;
+    min-height: 300px;
+}
+
+.debug .grey-section .col-100{
+    background-color: green;
+    min-height: 1000px;
+    
+
+}
+
+.debug .col-2{
+    background-color: red;
+    min-height: 300px;
+}
+
+.debug .col-1{
+    background-color: lightgreen;
+    min-height: 300px;
+}
+
+.debug .footer-row{
+    background-color: aquamarine;
+}
+
+.debug .item{
+    border: 2px dashed black;
+    background-color: orange;
+    padding: 5px;
+   
+}
+
