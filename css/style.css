@@ -22,6 +22,7 @@ a{
 button {
 	border: none;
 	background-color: transparent;
+    color: currentColor;
 }
 
 /* Layout */
@@ -45,9 +46,14 @@ button {
 }
 
 .login-button{
-
+    
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    align-self: center;
+    
 }
-
 
 .row{
     display: flex;
