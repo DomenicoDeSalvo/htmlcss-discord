@@ -26,7 +26,10 @@ a{
 }
 
 .main-header{
-    background-color: aqua;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 
 
@@ -54,9 +57,7 @@ a{
 }
 
 .blue-section{
-    background-color: blue;
-    padding: 20px;
-
+        padding: 100px;
 }
 
 .col-100{
@@ -103,12 +104,12 @@ footer{
     border: 2px dashed black;
 }
 
-.debug .main-header .column{
+/* .debug .main-header .column{
     padding: 20px;
     background-color: yellow;
    
 
-}
+} */
 
 #prov-text-c{
     text-align: center;
