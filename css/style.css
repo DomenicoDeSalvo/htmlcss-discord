@@ -23,6 +23,8 @@ button {
 	border: none;
 	background-color: transparent;
     color: currentColor;
+    border-radius: 30px;
+    padding: 8px;
 }
 
 /* Layout */
@@ -44,16 +46,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-
-.login-button{
-    
-    color: black;
-    background-color: white;
-    border-radius: 30px;
-    padding: 8px;
-    align-self: center;
-     
 }
 
 .introduction{
@@ -138,19 +130,21 @@ footer{
 
 }
 
-.download-button{
+.white-button{
     color: black;
-    background-color: white;
-    border-radius: 30px;
-    padding: 8px;
+    background-color: white;    
     margin: 10px;
 
 }
 
-.browser-button{
+.black-button{
     background-color: black;
-    border-radius: 30px;
-    padding: 8px;
+        margin: 10px;
+
+}
+
+.blue-button{
+    background-color: rgb(142, 161, 225);
     margin: 10px;
 
 }
@@ -167,6 +161,15 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
+}
+
+.star-text{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+   
 }
 
 /* Debug */
