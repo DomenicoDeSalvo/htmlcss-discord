@@ -48,6 +48,11 @@ button {
     justify-content: space-around;
 }
 
+.login-button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .introduction{
     max-width: 600px;    
 }
