@@ -78,7 +78,8 @@ button {
     flex-wrap: wrap;
     margin-top: 20px;    
     justify-content: space-between;
-    min-height: 100px;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 .footer-list-title{
@@ -161,7 +162,7 @@ footer{
 
 .blue-button{
     background-color: rgb(142, 161, 225);
-    margin: 10px;
+    color: white;
 
 }
 
