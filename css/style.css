@@ -196,6 +196,16 @@ footer{
     margin: 20px 0;
 }
 
+.socials-list{
+    display: flex;
+    align-items: center;
+}
+
+.socials-list img{
+    width: 25px;
+    margin-right: 10px;
+}
+
 /* Debug */
 .debug .column{
     border: 2px dashed black;
