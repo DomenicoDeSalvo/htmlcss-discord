@@ -59,20 +59,34 @@ button {
     
 }
 
-.row{
+.nav-row{
     display: flex;
     justify-content: center;
     padding: 20px 0;
     align-items: center;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+  
+}
+
 
 .footer-row{
     display: flex;
-    align-items: center;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;    
     justify-content: space-between;
     min-height: 100px;
+}
+
+.footer-list-title{
+    color: rgb(114, 137, 218);
+}
+
+.footer-list li{
+    margin: 5px 0;
 }
 
 .col-70{
@@ -112,6 +126,8 @@ button {
 
 footer{
     background-color: black;
+    color: white;
+    padding-top: 50px;
 }
 
 .col-2{
