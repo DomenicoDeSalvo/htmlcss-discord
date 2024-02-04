@@ -188,6 +188,14 @@ footer{
    
 }
 
+.flag{
+    width: 20px;
+}
+
+.languages{
+    margin: 20px 0;
+}
+
 /* Debug */
 .debug .column{
     border: 2px dashed black;
