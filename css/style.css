@@ -100,7 +100,8 @@ button {
 }
 
 .white-section{
-    padding: 80px;
+    padding-bottom: 150px;
+    padding-top: 80px;
 }
 
 .col-30{
@@ -108,8 +109,9 @@ button {
 }
 
 .grey-section{
-    padding: 80px;
+    padding-top: 80px;
     background-color: lightgray;
+    padding-bottom: 120px;
 }
 
 footer{
@@ -149,11 +151,19 @@ footer{
 
 }
 
-.waved-section{
-    
+.wave-white{
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
 }
 
-
+.wave-grey{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    background-image: url(../img/wave-reverse.svg);
+}
 
 /* Debug */
 .debug .column{
