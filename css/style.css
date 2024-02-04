@@ -151,18 +151,18 @@ footer{
 
 }
 
-.wave-white{
+.waved-white{
     background-image: url(../img/wave.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: bottom;
+    background-position: bottom;  
 }
 
-.wave-grey{
+.waved-grey{
+    background-image: url(../img/wave-reverse.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
-    background-image: url(../img/wave-reverse.svg);
 }
 
 /* Debug */
